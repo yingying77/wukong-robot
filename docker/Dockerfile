@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # 克隆项目仓库
-RUN git clone https://github.com/wzpan/wukong-robot.git .
+RUN git clone https://github.com/yingying77/wukong-robot.git .
 
 # 安装 PyAudio
 RUN pip install pyaudio
